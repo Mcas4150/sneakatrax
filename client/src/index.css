@@ -1,0 +1,53 @@
+body {
+  background: url("./img/binding-dark.png");
+  background-color: #445b6e;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.navbar-dark .navbar-brand {
+  color: #6d6769;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #445b6e;
+  font-size: 1.25rem;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: none;
+}
+
+a {
+  color: #ac87a9;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #ac87a9;
+  border-color: #ac87a9;
+}
+
+.navbar-toggler:focus {
+  outline: white auto 5px;
+}
+
+.bg-dark {
+  background: linear-gradient(to right, white, #ac87a9);
+}
+
+.navbar {
+  border-bottom: 1px white solid;
+}
+
+footer {
+  border-top: 1px white solid;
+}
