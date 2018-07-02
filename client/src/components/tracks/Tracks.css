@@ -62,13 +62,13 @@
   border-radius: 1%; */
 }
 
-@media (min-width: 1500px) {
+/* @media (min-width: 1500px) {
   .tracklist {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}
+} */
 
-@media (max-width: 1499px) and (min-width: 1190px) {
+@media (min-width: 1190px) {
   .tracklist {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }

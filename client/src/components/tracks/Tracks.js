@@ -23,7 +23,7 @@ class Tracks extends Component {
     }
 
     return (
-      <div className="tracklist">
+      <div className="tracklist container">
         <TrackForm />
         {trackContent}
       </div>
@@ -40,4 +40,7 @@ const mapStateToProps = state => ({
   track: state.track
 });
 
-export default connect(mapStateToProps, { getTracks })(Tracks);
+export default connect(
+  mapStateToProps,
+  { getTracks }
+)(Tracks);

@@ -7,7 +7,7 @@ export default () => {
       <a href="https://github.com/Mcas4150" target="_blank">
         Mike
       </a>{" "}
-      4 Lis
+      {/* 4 Lis */}
     </footer>
   );
 };
