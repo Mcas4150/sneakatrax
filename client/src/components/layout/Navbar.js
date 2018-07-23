@@ -22,11 +22,7 @@ class Navbar extends Component {
             My Profile
           </Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="/dashboard">
-            My Profile
-          </Link>
-        </li>
+
         <li className="nav-item">
           <a
             href=""
