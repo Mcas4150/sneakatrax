@@ -50,18 +50,6 @@
   -webkit-transition: all 0.25s ease-in-out;
 }
 
-.track-card {
-  /* border: 1px #ac87a9 solid;
-  border-radius: 1%; */
-}
-
-.track-card__info {
-  /* border-right: 1px #ac87a9 solid;
-  border-bottom: 1px #ac87a9 solid;
-  border-left: 1px #ac87a9 solid;
-  border-radius: 1%; */
-}
-
 /* @media (min-width: 1500px) {
   .tracklist {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -82,12 +70,12 @@
 
 @media (max-width: 899px) and (min-width: 650px) {
   .tracklist {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 649px) {
   .tracklist {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
